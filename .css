@@ -33,6 +33,7 @@ body {
     border: 2px solid #000000;
     object-fit: cover;
     display: block;
+    border-radius: 50%;
 
 }
 
