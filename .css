@@ -30,9 +30,10 @@ body {
 .foto-perfil {
     width: 120px;
     height: 150px;
-    border-radius: 50% / 40%; 
+    border: 2px solid #000000;
     object-fit: cover;
-    border: 1px solid #ccc;
+    display: block;
+
 }
 
 .nome-usuario {
@@ -57,8 +58,4 @@ body {
     border-radius: 5px;
     margin: 30px auto 0 auto; 
     transition: transform 0.2s;
-}
-
-.botao-seguir:hover {
-    transform: scale(1.05);
 }
