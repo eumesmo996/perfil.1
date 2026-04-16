@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; 
+    font-family: Arial, sans-serif;
+}
+
+.card-perfil {
+    background-color: #ffffff;
+    border: 2px solid black; 
+    padding: 20px;
+    width: 400px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 200px;
+}
+
+
+.topo-perfil {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.foto-perfil {
+    width: 120px;
+    height: 150px;
+    border-radius: 50% / 40%; 
+    object-fit: cover;
+    border: 1px solid #ccc;
+}
+
+.nome-usuario {
+    color: blue; 
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.bio-usuario {
+    color: black;
+    margin-top: 5px;
+    font-size: 1.1rem;
+}
+
+.botao-seguir {
+    background-color: green; 
+    color: white;
+    border: 2px solid black; 
+    padding: 10px 30px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 30px auto 0 auto; 
+    transition: transform 0.2s;
+}
+
+.botao-seguir:hover {
+    transform: scale(1.05);
+}
